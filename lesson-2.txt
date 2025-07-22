@@ -1,0 +1,33 @@
+1. Giải thích các câu lệnh: 
+- git init: Khởi tạo thư mục sẽ được quản lí bởi Git
+- git add <file_name>: Thêm file cụ thể nào đó lên vùng chuẩn bị commit
+- git add .: Thêm toàn bộ file lên vùng chuẩn bị commit
+- git commit -m “message”: đưa file lên Repository
+2. Hãy tưởng tượng có 1 folder lesson-2 mới được tạo. 
+Hãy liệt kê các file theo từng vùng sau khi thao tác một loạt các lệnh sau 
+a. Tạo 3 file: file1, file2, file3 : 3 files đang ở máy local
+
+b. Chạy lệnh: git init : 
+- Working directory: file1, file2, file3
+- Staging Area: Empty
+- Repository: Empty
+
+c. Chạy lệnh: git commit -m”init project” : K có file nào được đưa lên vùng Staging Area hay Repository
+- Working directory: file1, file2, file3
+- Staging Area: Empty
+- Repository: Empty
+
+d. Chạy lệnh: git add file1 : 
+- Working directory: file2, file3
+- Staging Area: file1
+- Repository: Empty
+
+e. Chạy lệnh: git commit -m”add file1” : đưa file1 vào vùng Repository
+- Working directory: file2, file3
+- Staging Area:
+- Repository: file1
+
+f. Chạy lệnh: git commit -m”add file” //Không có file nào tên là file > nên lệnh này không chạy
+- Working directory: file2, file3
+- Staging Area:
+- Repository: file1
