@@ -1,0 +1,50 @@
+1. Cấu trúc DOM cơ bản của một trang web bao gồm các thẻ gì? 
+<html> Thẻ lớn bao gồm toàn bộ nội dung. Thường chứa các thẻ như:
+    <head> Chứa thông tin cấu hình, khai báo CSS/JS  
+      <meta>
+      <title>Tiêu đề
+      <style> chứa max internal CSS
+      <link> liên kết CSS
+      <script> File JS
+  </head>
+  <body> Chứa các nội dung sẽ được hiển thị. Thường chứa các thẻ như
+     <header> - phần đầu trang
+      <nav>
+      <div> Nội dung
+     <iframe>
+      <section>
+          <h1> -> <h6> tiêu đề
+          <p> đoạn văn
+          <span> đoạn văn bản ngắn
+          <i> chữ in nghiêng
+          <br> xuống dòng
+      </section>
+    <link>
+    <script>
+    <footer> chân trang 
+  </body>
+</html>
+
+2. Hãy mô tả cấu trúc html của 1 bảng (table) 
+<table>
+  <caption>Tiêu đề bảng </caption>
+  <thead> ( chứa hàng tên cột)
+    <tr> ( biểu thị dòng)
+      <th>Tên cột 1</th> 
+      <th>Tên cột 2</th>
+    </tr>
+  </thead>
+  <tbody> ( chứa nội dung)
+    <tr>
+      <td>Nội dung hàng 1 cột 1</td>
+      <td>Nội dung hàng 1 cột 2</td>
+    </tr>
+    <tr>
+      <td>Nội dung hàng 2 cột 1</td>
+      <td>Nội dung hàng 2 cột 2</td>
+    </tr>
+  </tbody>
+</table>
+
+
+3. Push bài tập lên GitHub. 
